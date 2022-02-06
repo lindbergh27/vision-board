@@ -1,0 +1,12 @@
+/*** started 2-5-22 ***/
+/*** font-family: 'Permanent Marker', cursive; ***/
+/*** font-family: 'Montserrat', sans-serif; ***/
+body {
+    background-color: #e8e8e8;
+}
+
+div #vision-board {
+    width: 1200px;
+    height: 850px;
+    margin:0 auto;
+}
