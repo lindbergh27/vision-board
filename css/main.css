@@ -1,12 +1,71 @@
-/*** started 2-5-22 ***/
-/*** font-family: 'Permanent Marker', cursive; ***/
-/*** font-family: 'Montserrat', sans-serif; ***/
+
 body {
     background-color: #e8e8e8;
 }
 
-div #vision-board {
+p {
+    margin-bottom: 0px;
+}
+
+h1 {
+    /*** line-height: 0px;***/
+    margin-top: -4px;
+}
+
+#vision-board {
     width: 1200px;
     height: 850px;
-    margin:0 auto;
+    overflow: auto;
+    background-image: url(../img/background.png);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 30px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 76px 25px;
+
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+.title {
+    color: #ffffff;
+ }
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+/*** started 2-5-22 ***/
+/*** font-family: 'Permanent Marker', cursive; ***/
+/*** font-family: 'Montserrat', sans-serif; ***/
